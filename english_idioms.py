@@ -11,9 +11,8 @@ idioms = {
     "Lucifer": ["Speak", "of", "the", "devil"],
 }
 
-# for idiom in idioms:     #square bracket is how you access the value in the key.
-    # print(f'{idiom}: {" ".join(idioms[idiom])}')
+for idiom in idioms:     #square bracket is how you access the value in the key.
+    print(f'{idiom}: {" ".join(idioms[idiom])}')
 
 
-for idiom in idioms.items():
-        print(idiom)
+
